@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wecome to University</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    <!-- google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- stackpath -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLink">
+                <i class="material-icons" onclick="hideMenu()">close</i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="material-icons" onclick="showMenu()">menu</i>
+        </nav>
+        <h1>Contact us</h1>
+
+    </section>
+    <!-- contact us contact -->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231101.758174732!2d85.57893110752808!3d25.170660588976364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2f35c30f6cd23%3A0x4a668b37898fef59!2z4KSs4KS_4KS54KS-4KSwIOCktuCksOClgOCkqywg4KSs4KS_4KS54KS-4KSw!5e0!3m2!1shi!2sin!4v1626954699719!5m2!1shi!2sin"
+            width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>proffesor colony,grahphar</h5>
+                        <p> Bihar sharif, Nalanda 803101.IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 9123405200</h5>
+                        <p>monday to saturday ,10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>adityakumar754386@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" name="name" placeholder="Enter name" required>
+                    <input type="email" name="email" placeholder="Enter email" required>
+                    <input type="text" name="subject" placeholder="Enter subject" required>
+                    <textarea name="message" id="" rows="8" placeholder="message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">submit</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vel recusandae quasi tempore eaque tempora
+            delectus numquam nobis adipisci doloremque? Quasi possimus maxime blanditiis esse et dolor quo cumque
+            facilis?</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+
+
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> Heart BY fastart Student</p>
+    </section>
+
+
+    <!-- javascript for toogle menu -->
+    <script>
+        var x = document.getElementById("navLink");
+        function showMenu() {
+            x.style.right = "0";
+        }
+        function hideMenu() {
+            x.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
+.
